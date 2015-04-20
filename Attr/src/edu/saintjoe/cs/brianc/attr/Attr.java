@@ -3,11 +3,11 @@ package edu.saintjoe.cs.brianc.attr;
 public class Attr {
 	  private final String name;
 	  private Object value = null;
-
+//
 	  public Attr(String name) {
 	    this.name = name;
 	    }
-
+// This is a one peramater constructor, we know its name but not
 	  public Attr(String name, Object value) {
 	    this.name = name;
 	    this.value = value;
